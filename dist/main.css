@@ -226,6 +226,9 @@ footer .attribution a {
         -ms-flex: 1;
             flex: 1;
   }
+  .top .intro h1 {
+    font-size: 2.625rem;
+  }
   .top .intro h1,
   .top .intro p {
     text-align: left;
