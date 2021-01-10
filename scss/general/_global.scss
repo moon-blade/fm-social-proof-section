@@ -1,8 +1,12 @@
 body {
   font-family: "Spartan", sans-serif;
   font-size: 0.9375rem;
-  // font-wights: 400, 500, 700;
-  // overflow: hidden;
+
+  background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: calc(max(50%, 400px));
 }
 footer {
   height: 4.6875rem;
