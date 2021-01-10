@@ -1,0 +1,42 @@
+.bottom {
+  ul {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    li {
+      background-color: var(--veryDarkMagenta);
+      border-radius: 0.3125rem;
+      min-width: 20.5rem;
+      max-width: 20.5rem;
+      max-height: 14.375rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2.5rem 2rem;
+
+      &:not(:last-child) {
+        margin-bottom: 0.9375rem;
+      }
+      .person {
+        margin-bottom: 1.875rem;
+        img {
+          border-radius: 50%;
+          height: 3.125rem;
+          margin-right: 1.5rem;
+        }
+        .name {
+          color: var(--lightGrayishMagenta);
+          font-size: 0.75rem;
+        }
+        .status {
+          color: var(--softPink);
+          font-size: 0.75rem;
+        }
+      }
+      .review {
+        color: var(--lightGrayishMagenta);
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

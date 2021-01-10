@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+
+  &-fd-c {
+    flex-direction: column;
+  }
+
+  &-fd-r {
+    flex-direction: row;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+  &-jc-sb {
+    justify-content: space-between;
+  }
+}
+
+.spacing-global {
+  padding: 5rem 1.5rem 6.25rem 1.5rem;
+}

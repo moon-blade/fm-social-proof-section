@@ -1,0 +1,57 @@
+.top {
+  margin-bottom: 2.875rem;
+  .intro {
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      color: var(--veryDarkMagenta);
+      text-align: center;
+      line-height: 1;
+      margin-bottom: 1.25rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: var(--darkGrayishMagenta);
+      text-align: center;
+      margin-bottom: 1.625rem;
+    }
+  }
+
+  .ratings {
+    ul {
+      list-style-type: none;
+      li {
+        min-width: 20.375rem;
+        max-width: 27.875rem;
+        margin-right: auto;
+        margin-left: auto;
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+
+        background-color: var(--lightGrayishMagenta);
+        border-radius: 0.3125rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .stars {
+          margin-bottom: 0.875rem;
+          img {
+            &:not(:last-child) {
+              margin-right: 0.5rem;
+            }
+          }
+        }
+
+        p {
+          color: var(--veryDarkMagenta);
+          font-size: 0.75rem;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
